@@ -105,7 +105,7 @@ nav{
     height: 100px;
     border-radius: 50%;
     overflow: hidden;
-    box-shadow: 0 8 16px; rgba(0, 0, 0, 0.16);
+    box-shadow: 0 8 16px rgba(0, 0, 0, 0.16);
 }
 
 .about-me__picture{
@@ -129,7 +129,17 @@ margin-bottom: 16px;
 
 .about-me__link{
     font-size:20px;
-    color:#242422
-    padding 0 16px;
+    color:#242422;
+    padding: 0 16px;
     text-decoration: none;
+}
+
+.about-me__img--container{
+    flex:1;
+    display: flex;
+    align-items: center;
+}
+
+.about-me__img{
+    width: 100%;
 }
